@@ -15,7 +15,7 @@
         <!--D:\Program Files (x86)\apache-tomcat-8.5.11\logs-->
         <File>d:/Program Files (x86)/apache-tomcat-8.5.11/logs/mmall.log</File>
         <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
-            <fileNamePattern>/developer/apache-tomcat-7.0.73/logs/mmall.log.%d{yyyy-MM-dd}.gz</fileNamePattern>
+            <fileNamePattern>d:/Program Files (x86)/apache-tomcat-8.5.11/logs/mmall.log.%d{yyyy-MM-dd}.gz</fileNamePattern>
             <append>true</append>
             <maxHistory>10</maxHistory>
         </rollingPolicy>
